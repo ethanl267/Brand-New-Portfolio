@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #5a656e;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -308,8 +309,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
-  background: url("../img/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg") top center;
+  height: 100vh;
+  background: url("../img/clement-helardot-95YRwf6CNw8-unsplash (1).jpg") top center;
   background-size: cover;
   padding: 0 15px;
 }
@@ -381,7 +382,7 @@ section {
   margin-bottom: 15px;
   padding-bottom: 15px;
   position: relative;
-  color: #345676;
+  color: #000000;
 }
 
 .section-title h2::after {
@@ -390,7 +391,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #d43076;
+  background: #000000;
   bottom: 0;
   left: 0;
 }
@@ -480,7 +481,7 @@ section {
   line-height: 20px;
   display: block;
   font-weight: 700;
-  color: #2c4964;
+  color: #020202;
   margin-left: 50px;
   font-family: "Playfair Display", serif;
 }
@@ -560,7 +561,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #dd5a92;
+  background-color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -571,14 +572,14 @@ section {
   font-weight: 500;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #4b7dab;
+  color: #000000;
   font-family: "Poppins", sans-serif;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #d43076;
+  border-left: 2px solid #000000;
   position: relative;
 }
 
@@ -586,7 +587,7 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  color: #2c4964;
+  color: #050505;
   margin-bottom: 10px;
 }
 
@@ -621,7 +622,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #d43076;
+  border: 2px solid #050404;
 }
 
 /*--------------------------------------------------------------
@@ -991,7 +992,7 @@ section {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #d43076;
+  color: #030303;
 }
 
 .contact .contact-about p {
@@ -1009,7 +1010,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #d43076;
+  color: #070607;
   line-height: 0;
   padding: 8px 0;
   margin-right: 4px;
@@ -1018,11 +1019,11 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #d43076;
+  border: 1px solid #030303;
 }
 
 .contact .social-links a:hover {
-  background: #d43076;
+  background: #0a090a;
   color: #fff;
 }
 
@@ -1032,7 +1033,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #d43076;
+  color: #080808;
   line-height: 0;
   margin-right: 15px;
 }
@@ -1095,7 +1096,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #d43076;
+  background: #000000;
   border: 0;
   padding: 10px 24px;
   color: #fff;
