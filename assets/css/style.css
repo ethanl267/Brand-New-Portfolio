@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 9999;
-  background: #d43076;
+  background: #130e10;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -510,7 +510,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/Ethan Lesch.JPG") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -658,7 +658,7 @@ section#resume {
 }
 
 .services .icon-box:hover::before {
-  background: #d43076;
+  background: #0f080b;
   height: 100%;
   border-radius: 0px;
 }
@@ -671,7 +671,7 @@ section#resume {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #d43076;
+  background: #0f0a0d;
   transition: all 0.3s ease-in-out;
 }
 .row{
@@ -709,7 +709,7 @@ section#resume {
 }
 
 .services .icon-box:hover .icon i {
-  color: #d43076;
+  color: #140e11;
 }
 
 @media (max-width: 768px) {
